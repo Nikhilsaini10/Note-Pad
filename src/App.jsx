@@ -59,7 +59,7 @@ const App = () => {
         {task.map(function(elem , idx){
           return  <div key={idx} className='bg-[url("https://static.vecteezy.com/system/resources/previews/037/152/677/non_2x/sticky-note-paper-background-free-png.png")] h-50 rounded m-3 text-black p-4 bg-cover overflow-hidden flex flex-col justify-between' >
             <div>
-            <h2 className='text-2xl leading-tight font-bold text-center pt-3'>{elem.title}</h2>
+            <h2 className='text-2xl leading-tight font-bold text-center pt-7 sm:pt-5 md:pt-6'>{elem.title}</h2>
             <p className='leading-tight text-center text-gray-500 italic mt-1'>{elem.details}</p>
             </div>
             <button onClick={() =>{
